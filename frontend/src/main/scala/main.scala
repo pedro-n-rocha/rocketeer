@@ -43,7 +43,7 @@ object BootStrap {
       
       val counter = new AtomicInteger
       import system_front.dispatcher
-      system_front.scheduler.schedule(2.seconds, 2.seconds) {
+      system_front.scheduler.schedule(0.seconds, 0.seconds) {
       implicit val timeout = Timeout(5 seconds)
       (frontend ? TransformationJob("hello-" + counter.incrementAndGet())) onSuccess {
         case result => println(result)
