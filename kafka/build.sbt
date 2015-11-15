@@ -1,4 +1,4 @@
-name := """hello-kafka"""
+name := "kafka"
 
 version := "1.0"
 

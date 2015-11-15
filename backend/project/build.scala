@@ -6,7 +6,7 @@ lazy val root = (project in file(".")).
   settings(
     name := "backend",
     version := "1.0",
-    scalaVersion := "2.10.5" , 
+    scalaVersion := "2.11.7" , 
 	
 	libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.4-SNAPSHOT" , 
 	libraryDependencies ++= Seq("com.typesafe.akka" %% "akka-cluster" % "2.4-SNAPSHOT"),

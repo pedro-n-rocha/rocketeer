@@ -1,4 +1,4 @@
-name := """hello-zookeeper"""
+name := "zoo"
 
 version := "1.0"
 
