@@ -3,7 +3,7 @@ import Keys._
 
 object Build extends Build {
 
-  lazy val root = project.in(file(".")).aggregate(backend, frontend ,zoo , kafka)
+  lazy val root = project.in(file(".")).aggregate(backend, frontend ,zoo , kafka , spark)
       
    
     
@@ -39,6 +39,8 @@ object Build extends Build {
       lazy val zoo  = project
 
       lazy val kafka = project
+
+      lazy val spark  = project
 
 
 }
