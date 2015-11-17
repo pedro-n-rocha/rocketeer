@@ -44,5 +44,5 @@ object Build extends Build {
 
       lazy val http = project 
 
-      lazy val kafka-consumer = project
+      lazy val kafka_consumer = project
 }
