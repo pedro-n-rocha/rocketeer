@@ -46,5 +46,7 @@ object Build extends Build {
 
       lazy val kafka_producer = project
   
-      lazy val kafka_consumer = project
+      lazy val kafka_consumer = project 
+
+      lazy val kafka_streaming_spark = project
 }
